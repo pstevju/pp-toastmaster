@@ -25,7 +25,8 @@
 	"scripts": {
 		"dev": "vite build -m development -w",
 		"dev:prod": "vite build -w",
-		"build": "vite build"
+		"build": "vite build",
+		"publish": "npm run build && npm publish"
 	},
 	"devDependencies": {
 		"@types/node": "^20.14.9",
