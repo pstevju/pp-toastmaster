@@ -3,11 +3,8 @@
 	"version": "0.1.0",
 	"description": "Bootstrap Toast manager for Power Pages.",
 	"keywords": [],
-	"author": {
-		"name": "Philip Stevju Meidell",
-		"email": "philip.meidell@itera.com",
-		"url": "https://itera.com"
-	},
+	"author": "Philip Stevju Meidell <philip.meidell@itera.com>",
+	"repository": "github:pstevju/pp-toastmaster",
 	"license": "ISC",
 	"type": "module",
 	"files": [
@@ -26,7 +23,7 @@
 		"dev": "vite build -m development -w",
 		"dev:prod": "vite build -w",
 		"build": "vite build",
-		"publish": "npm run build && npm publish"
+		"publish": "npm publish --access public"
 	},
 	"devDependencies": {
 		"@types/node": "^20.14.9",
