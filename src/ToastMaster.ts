@@ -14,17 +14,15 @@ export class ToastMaster {
 	/**
 	 * The ToastMaster version.
 	 */
-	private _version: string = '1.0.0';
-
 	/**
 	 * Returns the version of the toast master.
 	 * @returns The version of the toast master.
 	 */
-	version = () => `v${this._version}`;
+	static version = __APP_VERSION__;
 
 	constructor() {
 		// Log the current version and ID of the ToastMaster instance.
-		console.log(`ToastMaster ${this.version()} loaded (ID: ${this._id}).`);
+		console.log(`ToastMaster ${ToastMaster.version} loaded (ID: ${this._id}).`);
 
 		Object.assign(this._container, {
 			id: `toast-master-${this._id}`,

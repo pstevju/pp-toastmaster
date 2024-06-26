@@ -45,19 +45,16 @@ toastMaster.setPositioning({
 });
 
 // Log the current ToastMaster version (notice the static method call).
-console.log(ToastMaster.version());
+console.log(ToastMaster.version);
 ```
-## Static methods
+## Static variables
 
-### `version()`
-Returns the version of the loaded ToastMaster module.
+### `version`
+Holds the version of the loaded ToastMaster module.
 
 ```typescript
-version(): string
+version: string
 ```
-
-#### Returns
-- `string`: The version of the ToastMaster module in the format `v1.0.0`.
 
 ## Methods
 

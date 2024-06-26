@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import path from 'node:path';
+import { version } from './package.json';
 
 export default defineConfig(({ mode }) => ({
 	build: {
@@ -22,4 +23,7 @@ export default defineConfig(({ mode }) => ({
 			},
 		},
 	},
+	define: {
+		__APP_VERSION__: JSON.stringify(`v${version}`),
+	}
 }));
