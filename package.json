@@ -1,5 +1,5 @@
 {
-	"name": "pp-toastmaster",
+	"name": "@pstevju/pp-toastmaster",
 	"version": "0.1.0",
 	"description": "Bootstrap Toast manager for Power Pages.",
 	"keywords": [],
