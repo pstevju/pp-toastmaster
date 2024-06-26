@@ -1,8 +1,3 @@
-/**
- * @file Global generic toast notification system for displaying messages to the user.
- * @version 1.0.0
- */
-
 import { ToastMasterToast, ToastMasterToastOptions, ToastMasterToastPosition, ToastMasterToastPositioning, ToastMasterToastVariant } from './ToastMasterToast';
 
 export class ToastMaster {
